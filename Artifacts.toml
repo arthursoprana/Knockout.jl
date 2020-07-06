@@ -1,0 +1,51 @@
+[[jsbundle]]
+arch = "i686"
+git-tree-sha1 = "1323769c9f163e475e44a6e0c3f258f32b935eee"
+os = "windows"
+
+    [[jsbundle.download]]
+    sha256 = "e05b78de50aab32384110e46a6bfef7590ba91fa053981d83ad4215b8d2b3b3a"
+    url = "https://github.com/arthursoprana/Knockout.jl/releases/download/v0.2.5/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "x86_64"
+git-tree-sha1 = "1323769c9f163e475e44a6e0c3f258f32b935eee"
+os = "windows"
+
+    [[jsbundle.download]]
+    sha256 = "e05b78de50aab32384110e46a6bfef7590ba91fa053981d83ad4215b8d2b3b3a"
+    url = "https://github.com/arthursoprana/Knockout.jl/releases/download/v0.2.5/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "i686"
+git-tree-sha1 = "0e193b2e96ae83a12e16fbcc5453e308ac720eb4"
+libc = "glibc"
+os = "linux"
+
+    [[jsbundle.download]]
+    sha256 = "e05b78de50aab32384110e46a6bfef7590ba91fa053981d83ad4215b8d2b3b3a"
+    url = "https://github.com/arthursoprana/Knockout.jl/releases/download/v0.2.5/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "x86_64"
+git-tree-sha1 = "0e193b2e96ae83a12e16fbcc5453e308ac720eb4"
+libc = "glibc"
+os = "linux"
+
+    [[jsbundle.download]]
+    sha256 = "e05b78de50aab32384110e46a6bfef7590ba91fa053981d83ad4215b8d2b3b3a"
+    url = "https://github.com/arthursoprana/Knockout.jl/releases/download/v0.2.5/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "aarch64"
+git-tree-sha1 = "0e193b2e96ae83a12e16fbcc5453e308ac720eb4"
+libc = "glibc"
+os = "linux"
+
+    [[jsbundle.download]]
+    sha256 = "e05b78de50aab32384110e46a6bfef7590ba91fa053981d83ad4215b8d2b3b3a"
+    url = "https://github.com/arthursoprana/Knockout.jl/releases/download/v0.2.5/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "x86_64"
+git-tree-sha1 = "0e193b2e96ae83a12e16fbcc5453e308ac720eb4"
+os = "macos"
+
+    [[jsbundle.download]]
+    sha256 = "e05b78de50aab32384110e46a6bfef7590ba91fa053981d83ad4215b8d2b3b3a"
+    url = "https://github.com/arthursoprana/Knockout.jl/releases/download/v0.2.5/jsbundle.tar.gz"

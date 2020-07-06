@@ -1,12 +1,13 @@
 module Knockout
 
-using WebIO, Observables, JSExpr, JSON
+using WebIO, Observables, JSExpr, JSON, Pkg.Artifacts
 import Observables: off, observe, AbstractObservable, ObservablePair
 
 export knockout
 
-const knockout_js = joinpath(@__DIR__, "..", "assets", "knockout.js")
-const knockout_punches_js = joinpath(@__DIR__, "..", "assets", "knockout_punches.js")
+const external_assets_path = artifact"jsbundle"
+const knockout_js = joinpath(external_assets_path, "knockout.js")
+const knockout_punches_js = joinpath(external_assets_path, "knockout_punches.js")
 
 """
 `knockout(template, data=Dict(), extra_js = js""; computed = [], methods = [])`
